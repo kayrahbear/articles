@@ -1,0 +1,73 @@
+/*For each article on your blog page, you need to have the following things to be unique.
+
+A different background color.
+A different font family.
+A different font size.
+A different font color.
+A different line height.
+A different padding value.
+Each should have a border, but with rounded corners of different size (e.g. one article could have barely rounded borders, but the next one could be almost circular in shape)*/
+
+
+.main-header,
+.main-content,
+.page-footer {
+    width: 841px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-header {
+    color: MediumPurple;
+    font-family: cursive;
+}
+
+.article-one {
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.1em;
+    background-color: lightblue;
+    color: darkblue;
+    line-height: 1em;
+    padding: 4px;
+    border-radius: 25px;
+}
+
+.article-two {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 1.2em;
+    background-color: lightpink;
+    color: red;
+    line-height: 1.2em;
+    padding: 6px;
+    border-radius: 50px;
+}
+
+.article-three {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.3em;
+    background-color: lightgreen;
+    color: darkgreen;
+    line-height: 1.4em;
+    padding: 8px;
+    border-radius: 75px;
+}
+
+.article-four {
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-size: 1.4em;
+    background-color: lightgrey;
+    color: black;
+    line-height: 1.6em;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.article-five {
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 1.5em;
+    background-color: lightsalmon;
+    color: white;
+    line-height: 1.8em;
+    padding: 12px;
+    border-radius: 125px;
+}
